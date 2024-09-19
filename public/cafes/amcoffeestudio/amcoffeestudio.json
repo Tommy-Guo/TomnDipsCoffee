@@ -1,0 +1,20 @@
+{
+  "identifier": "amcoffeestudio",
+  "name": "AM Coffee Studio",
+  "address": "2233 Dundas St W, Toronto, ON M6R 1X6",
+  "lat": 43.654115085948376,
+  "lng": -79.45204300309821,
+  "coffee_rating": "5",
+  "vibe_rating": "7",
+  "general_desc": "Beautiful modern industrial interior. Great place to work or chat with some friends. Stale pateries & badly made coffee.",
+  "hours": {
+    "SUNDAY": "9:00 - 16:00",
+    "MONDAY": "7:00 - 19:00",
+    "TUESDAY": "7:00 - 19:00",
+    "WEDNESDAY": "7:00 - 19:00",
+    "THURSDAY": "7:00 - 19:00",
+    "FRIDAY": "7:00 - 19:00",
+    "SATURDAY": "8:00 - 17:00"
+  },
+  "features": []
+}

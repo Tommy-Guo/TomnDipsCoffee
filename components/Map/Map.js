@@ -1,0 +1,83 @@
+'use client';
+import React, { useEffect, useState } from 'react';
+import L from 'leaflet';
+import 'leaflet/dist/leaflet.css';
+import styles from './Map.module.css';
+
+const defaultIconUrl = '../images/map-pointer.png';
+
+const Map = ({ scrollableSectionRef }) => {
+  const [cafes, setCafes] = useState([]);
+
+  useEffect(() => {
+    const fetchIdentifiers = async () => {
+      const response = await fetch('/api');
+      const data = await response.json();
+      return data.identifiers;
+    };
+
+    const fetchCafesData = async () => {
+      const identifiers = await fetchIdentifiers();
+      const cafesData = await Promise.all(identifiers.map(async (identifier) => {
+        const response = await fetch(`/cafes/${identifier}/${identifier}.json`);
+        const data = await response.json();
+        return data;
+      }));
+      setCafes(cafesData);
+    };
+
+    fetchCafesData();
+  }, []);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const map = L.map('map', {
+        center: [43.692366719510346, -79.41738474464456],
+        zoom: 12,
+        scrollWheelZoom: true
+      });
+      L.tileLayer(`https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=${process.env.NEXT_PUBLIC_MAP_TOKEN}`, {
+        maxZoom: 18,
+        // id: 'mapbox/dark-v11',
+        id: 'mapbox/outdoors-v11',
+        tileSize: 512,
+        zoomOffset: -1
+      }).addTo(map);
+
+      cafes.forEach(cafe => {
+        const iconUrl = `/api/${cafe.identifier}/icon`;
+
+        const icon = L.divIcon({
+          className: 'custom-icon',
+          html: `
+            <div style="position: relative;">
+              <img src="${defaultIconUrl}" alt="Map pointer" style="position: absolute; top: 0; left: 0; width: 30px; height: 42px;">
+              <img src="${iconUrl}" alt="${cafe.name} icon " style="position: absolute; top: 0; left: 0; width: 32px; height: 32px; background-color: white !important; border-radius: 6px; border: 2px solid white">
+            </div>
+          `,
+          iconSize: [32, 32]
+        });
+
+        const marker = L.marker([cafe.lat, cafe.lng], { icon: icon }).addTo(map);
+        marker.on('click', () => {
+          const cafeElement = document.getElementById(cafe.identifier);
+          if (cafeElement) {
+            cafeElement.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+            });
+          }
+        });
+
+      });
+
+      return () => {
+        map.remove();
+      };
+    }
+  }, [cafes, scrollableSectionRef]);
+
+  return <div id="map" className={styles.map}></div>;
+};
+
+export default Map;

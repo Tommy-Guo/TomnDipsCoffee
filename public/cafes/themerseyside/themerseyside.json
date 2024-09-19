@@ -1,0 +1,20 @@
+{
+  "identifier": "themerseyside",
+  "name": "The Merseyside",
+  "address": "2413 Dundas St W, Toronto, ON M6P 1X3",
+  "lat": 43.6584177008594,
+  "lng": -79.45317370303788,
+  "coffee_rating": "5",
+  "vibe_rating": "10",
+  "general_desc": "Quaint, calm, and cozy cafe. Lots of seating, great place to work, read, or chill.",
+  "hours": {
+    "SUNDAY": "8:30 - 14:00",
+    "MONDAY": "8:00 - 14:00",
+    "TUESDAY": "8:00 - 14:00",
+    "WEDNESDAY": "8:00 - 14:00",
+    "THURSDAY": "8:00 - 14:00",
+    "FRIDAY": "8:00 - 14:00",
+    "SATURDAY": "8:30 - 14:00"
+  },
+  "features": []
+}

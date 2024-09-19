@@ -1,0 +1,27 @@
+{
+  "identifier": "ethicacoffeeroasters",
+  "name": "Ethica Coffee Roasters",
+  "address": "213 Sterling Rd, Toronto, ON M6R 2B2",
+  "lat": 43.65528878595758,
+  "lng": -79.44526810309814,
+  "coffee_rating": "9",
+  "vibe_rating": "10",
+  "general_desc": "Ethica Coffee Roasters is a lovely & lively cafe! There are tons of seats and they offer a choice of beans for whichever drink you choose. There's tons of seating in their open modern industrial cafe. We're not too sure how often, though they had a live jazz band when we visited, bringing some liveliness to an otherwise quiet street.\n\nEthica is more than just a cafe, they feature their in-house roasted beans, art work, coffee merch & equipment, and a variety of snacks and treats!",
+  "hours": {
+    "SUNDAY": "8:00 - 18:00",
+    "MONDAY": "8:00 - 17:00",
+    "TUESDAY": "8:00 - 17:00",
+    "WEDNESDAY": "8:00 - 17:00",
+    "THURSDAY": "8:00 - 17:00",
+    "FRIDAY": "8:00 - 17:00",
+    "SATURDAY": "8:00 - 18:00"
+  },
+  "features": [
+    "☕ Great Coffee",
+    "🥐 Snacks & Treats",
+    "🖼️ Art",
+    "🎵 Live Music",
+    "💻 Great place to work",
+    "☕Fresh Beans"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "identifier": "lunabakery",
+  "name": "LUNA BAKERY",
+  "address": "5376 Yonge St, Toronto, ON M2N 5R5",
+  "lat": 43.774552800000045,
+  "lng": -79.41454439999995,
+  "coffee_rating": "6",
+  "vibe_rating": "8",
+  "general_desc": "We'll admit, LUNA is more of a bakery than a cafe but we do love the interior. The coffee is good but their treats are amazing. They have a selection of pastries and seasonal treats.",
+  "hours": {
+    "SUNDAY": "11:00 - 21:00",
+    "MONDAY": "11:00 - 21:00",
+    "TUESDAY": "11:00 - 21:00",
+    "WEDNESDAY": "11:00 - 21:00",
+    "THURSDAY": "11:00 - 21:00",
+    "FRIDAY": "11:00 - 22:30",
+    "SATURDAY": "11:00 - 22:30"
+  },
+  "features": [
+    "🥮 Pasteries",
+    "🛋️ Great place for meetups"
+  ]
+}

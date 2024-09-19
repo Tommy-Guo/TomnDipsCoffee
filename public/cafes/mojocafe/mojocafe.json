@@ -1,0 +1,20 @@
+{
+  "identifier": "mojocafe",
+  "name": "Mo.Jo Cafe",
+  "address": "715 The Queensway, Etobicoke, ON M8Y 1L2",
+  "lat": 43.62645118572615,
+  "lng": -79.50135650309946,
+  "coffee_rating": "4",
+  "vibe_rating": "9",
+  "general_desc": "You'll be hard-pressed find this beautiful cafe empty. They have a well designed interior but we found the coffee wasn't to our taste. It's not a place I think I'd go back to for a good cup of coffee but they do have a busy kitchen if you're looking for some food, although we've never tried it.",
+  "hours": {
+    "SUNDAY": "8:30 - 14:00",
+    "MONDAY": "7:00 - 17:00",
+    "TUESDAY": "7:00 - 17:00",
+    "WEDNESDAY": "7:00 - 17:00",
+    "THURSDAY": "7:00 - 17:00",
+    "FRIDAY": "7:00 - 17:00",
+    "SATURDAY": "8:30 - 16:00"
+  },
+  "features": []
+}

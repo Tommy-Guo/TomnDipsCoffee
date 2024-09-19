@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+
+.source-sans-3 {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+
+:root {
+  --navbar-height: 66px;
+  --available-height: calc(100vh - var(--navbar-height));
+
+  --main-backcolour: #1e1f23;
+  --main-textcolour: #eeeeee;
+
+  --secondary-textcolour: #5C5470;;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: var(--main-backcolour);
+  color: var(--main-textcolour);
+}
+
+body {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.home-page {
+  height: var(--available-height);
+  display: flex;
+}
+
+
+.mapContainer {
+  flex: 1;
+  height: 51vh;
+}
+
+@media (max-width: 768px) {
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: calc(100dvh - 4em);
+  }
+
+  .home-page {
+    display: flex;
+    flex-direction: column;
+    height: calc(100dvh - 4em);
+  }
+}

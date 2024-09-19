@@ -1,0 +1,25 @@
+{
+  "identifier": "redrocketcoffee",
+  "name": "Red Rocket Coffee",
+  "address": "1364 Danforth Ave, Toronto, ON M4J 1M9",
+  "lat": 43.68247669660066,
+  "lng": -79.32846821877074,
+  "coffee_rating": "9",
+  "vibe_rating": "10",
+  "general_desc": "Red Rocket Coffee has a beautifully designed interior, super cozy yet spacious. The perfect place to just sit and read or to get some work done.\n\nIt's also Mr. Kim's favourite coffee place!",
+  "hours": {
+    "SUNDAY": "8:00 - 17:00",
+    "MONDAY": "7:00 - 17:00",
+    "TUESDAY": "7:00 - 17:00",
+    "WEDNESDAY": "7:00 - 17:00",
+    "THURSDAY": "7:00 - 17:00",
+    "FRIDAY": "7:00 - 17:00",
+    "SATURDAY": "8:00 - 17:00"
+  },
+  "features": [
+    "☕ Great Coffee!",
+    "🛋️ Cozy",
+    "💻 Great place to work",
+    "🧁 Snacks and Treats"
+  ]
+}

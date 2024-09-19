@@ -1,0 +1,24 @@
+{
+    "identifier": "martinsespressobar",
+    "name": "Martin\u2019s Espresso Bar",
+    "address": "1421 Bloor St W, Toronto, ON M6P 3L4",
+    "lat": 43.65715494999085,
+    "lng": -79.44788442514891,
+    "coffee_rating": "9.5",
+    "vibe_rating": "10",
+    "general-desc": "",
+    "hours": [{
+        "sunday": "8:00 - 18:00",
+        "monday": "7:30 - 18:00",
+        "tuesday": "7:30 - 18:00",
+        "wednesday": "7:30 - 18:00",
+        "thursday": "7:30 - 18:00",
+        "friday": "7:30 - 19:00",
+        "saturday": "7:30 - 19:00"
+    }],
+    "features": [
+        "💻 Great place to work",
+        "🥪 Snacks & Sandwhiches",
+        "🪑 Lots of seats"
+    ]
+}

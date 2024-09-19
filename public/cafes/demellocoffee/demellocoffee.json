@@ -1,0 +1,25 @@
+{
+  "identifier": "demellocoffee",
+  "name": "De Mello Coffee",
+  "address": "2489 Yonge Street, Toronto",
+  "lat": 43.71184391350256,
+  "lng": -79.39917152969444,
+  "coffee_rating": "8",
+  "vibe_rating": "7",
+  "general_desc": "This location on Younge is a great place for the locals to get De Mello's freshly roasted coffee! The baristas are friendly and very knowledgable about third wave coffee, they can help you diagnose your shot, suggest different blends or roasts! They also have a cute little merch section in the back to get your De Mello branded trinkets and pins. A great place to have a quick coffee, although there aren't many seats. The basritas once tried to help me diagnose a shot just hearing about my machine & grinder and got it spot on once I tried it.",
+  "hours": {
+    "SUNDAY": "8:00 - 19:00",
+    "MONDAY": "7:00 - 19:00",
+    "TUESDAY": "7:00 - 19:00",
+    "WEDNESDAY": "7:00 - 19:00",
+    "THURSDAY": "7:00 - 19:00",
+    "FRIDAY": "7:00 - 19:00",
+    "SATURDAY": "8:00 - 19:00"
+  },
+  "features": [
+    "🧁 Cakes & Treats",
+    "☕ Fresh beans",
+    "😊 Friendly Baristas",
+    "☕ Merch & Trinkets"
+  ]
+}

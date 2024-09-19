@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&PT+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+.main {
+    margin: 1.6em auto;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.aboutus_table {
+    text-align: center;
+    color: white;
+}
+
+.main>div {
+    margin: 0.8em 0.4em;
+}
+
+.selfie {
+    border-radius: 50%;
+    margin: 1.4em 0;
+}
+
+.whyDiv {
+    /* max-width: 60%; */
+    flex: 50%;
+    border-left: 2px solid #d7bd6e;
+    padding-left: 1em;
+}
+
+.supportDiv {
+    flex: 40%;
+    border-left: 2px solid #d7bd6e;
+    padding-left: 1em;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+
+.divTitle {
+    font-size: 1.8rem;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #d7bd6e;
+    margin: 0 0 0.4em 0;
+}
+
+.red {
+    color: red;
+
+}
+.footer {
+    margin: auto !important;
+    bottom: 0;
+}
+
+
+@media (max-width: 768px) {
+    .main {
+        margin: 1.6em auto;
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        font-family: "Roboto Condensed", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 1.1rem;
+        line-height: 1.4rem;
+    }}

@@ -1,0 +1,25 @@
+{
+  "identifier": "neocoffeebar",
+  "name": "NEO COFFEE BAR",
+  "address": "770 Bay St. Unit 3, Toronto, ON M5G 0A6",
+  "lat": 43.66013570088512,
+  "lng": -79.38586987361951,
+  "coffee_rating": "4",
+  "vibe_rating": "8",
+  "general_desc": "Although we didn't love the coffee here, it makes up for it in treats & design. We loved the mochi here and we loved how diverse the crowd was- a blend of hardworking business people and local students getting some work done. They have laptop-free hours if you're looking for a chill spot to unwind.",
+  "hours": {
+    "SUNDAY": "8:00 - 21:00",
+    "MONDAY": "7:00 - 21:00",
+    "TUESDAY": "7:00 - 21:00",
+    "WEDNESDAY": "7:00 - 21:00",
+    "THURSDAY": "7:00 - 21:00",
+    "FRIDAY": "7:00 - 22:00",
+    "SATURDAY": "8:00 - 22:00"
+  },
+  "features": [
+    "🍵 Matcha",
+    "🥮 Asian treats and cakes",
+    "💻 Great hangout spot",
+    "❌ Laptop Free Hours"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "identifier": "supercoffee",
+  "name": "supercoffee",
+  "address": "1148 Weston Rd, York, ON M6N 3S4",
+  "lat": 43.686807406437914,
+  "lng": -79.4895576165344,
+  "coffee_rating": "8",
+  "vibe_rating": "6",
+  "general_desc": "This corner cafe might seem inconspicous but is full of life and community. You'll hardly ever find this place empty and it's well deserved. The baristas are always happy to help you with whatever you need. They have good coffee, tasty snacks, ice cream, and even treats for your furry pets. They're well known in the community, definitely a place we'd go back to.",
+  "hours": {
+    "SUNDAY": "8:00 - 18:00",
+    "MONDAY": "6:30 - 19:00",
+    "TUESDAY": "6:30 - 19:00",
+    "WEDNESDAY": "6:30 - 19:00",
+    "THURSDAY": "6:30 - 19:00",
+    "FRIDAY": "6:30 - 19:00",
+    "SATURDAY": "8:00 - 18:00"
+  },
+  "features": [
+    "🍪 Sweet treats",
+    "🍦 Soft serve"
+  ]
+}

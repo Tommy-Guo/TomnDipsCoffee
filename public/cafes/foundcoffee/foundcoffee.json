@@ -1,0 +1,25 @@
+{
+  "identifier": "foundcoffee",
+  "name": "Found Coffee",
+  "address": "2088 Dundas St W, Toronto, ON M6R 1W9",
+  "lat": 43.65242217110645,
+  "lng": -79.44830139144175,
+  "coffee_rating": "9",
+  "vibe_rating": "6",
+  "general_desc": "Found Coffee is a cozy little cafe with amazing coffee. Founded by an Austrailian who moved to Toronto with the dream of giving back & helping out the community through coffee, serving ethically sourced coffee. They also won the Thi3rd Wave Coffee awards in 2022!",
+  "hours": {
+    "SUNDAY": "9:00 - 17:00",
+    "MONDAY": "8:00 - 16:00",
+    "TUESDAY": "8:00 - 16:00",
+    "WEDNESDAY": "8:00 - 16:00",
+    "THURSDAY": "8:00 - 16:00",
+    "FRIDAY": "8:00 - 16:00",
+    "SATURDAY": "9:00 - 17:00"
+  },
+  "features": [
+    "🍵 Matcha & Chai",
+    "🍵 Great Coffee",
+    "☕ Merch & Trinkets",
+    "🏆 TWA 2022 WINNER"
+  ]
+}

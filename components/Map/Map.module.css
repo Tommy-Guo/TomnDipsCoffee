@@ -1,0 +1,19 @@
+.map {
+    width: 100%;
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .map {
+        display: block;
+        flex-grow: 2;
+        position: absolute;
+
+        max-height: 80%;
+        min-height: 57%;
+
+        min-width: 100%;
+
+        z-index: 1;
+    }
+  }

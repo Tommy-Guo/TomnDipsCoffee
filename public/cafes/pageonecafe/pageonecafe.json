@@ -1,0 +1,24 @@
+{
+  "identifier": "pageonecafe",
+  "name": "Page One Cafe",
+  "address": "108 Mutual St, Toronto, ON M5B 2R7",
+  "lat": 43.657919971109315,
+  "lng": -79.37625260309572,
+  "coffee_rating": "8",
+  "vibe_rating": "9",
+  "general_desc": "Giant area, great for group meet ups or just a place to work! Super friendly staff! The woman working the cash register was super friendly when we visited- she was one of those people you get along with really easily.",
+  "hours": {
+    "SUNDAY": "9:00 - 17:00",
+    "MONDAY": "8:30 - 17:00",
+    "TUESDAY": "8:30 - 17:00",
+    "WEDNESDAY": "8:30 - 17:00",
+    "THURSDAY": "8:30 - 17:00",
+    "FRIDAY": "8:30 - 17:00",
+    "SATURDAY": "9:00 - 17:00"
+  },
+  "features": [
+    "☕ Great Coffee",
+    "🥐 Snacks & Treats",
+    "🍻 Local Craft Beer"
+  ]
+}

@@ -1,0 +1,92 @@
+.nav_container {
+    border-bottom: 0.5px solid #393b3e;
+}
+
+.Montserrat {
+    font-family: "Montserrat";
+    font-optical-sizing: auto;
+    font-weight: 650;
+}
+
+.nav {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    margin: 0 auto;
+    width: 60%;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+.navList {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navLink {
+    margin: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+    margin-left: 0.4em;
+    display: inline-block;
+}
+
+.logoImage {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    .nav_container {
+        overflow: none;
+    }
+
+    .playwrite {
+        font-family: "Playwrite AU QLD", cursive;
+        font-optical-sizing: auto;
+        font-weight: 1000;
+    }
+
+    .nav {
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+        height: 2em;
+        width: 92svw;
+    }
+
+    .navList {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navLink {
+        margin: 1em;
+        color: white;
+        text-decoration: none;
+    }
+
+    .logoImage {
+        display: block;
+    }
+
+    .logo {
+        display: none;
+    }
+
+}

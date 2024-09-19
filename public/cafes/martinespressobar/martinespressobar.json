@@ -1,0 +1,25 @@
+{
+  "identifier": "martinespressobar",
+  "name": "Martin Espresso Bar",
+  "address": "1421 Bloor St W, Toronto, ON M6P 3L4",
+  "lat": 43.65715346420185,
+  "lng": -79.44788534147831,
+  "coffee_rating": "9",
+  "vibe_rating": "8",
+  "general_desc": "Matrin Espresso Bar is a small low-key coffee shop with alot of energy, they serve great coffee, food, and deserts. They serve all your typical coffee drinks. some tasty sounding smoothies, and even some popsicles & affagato.",
+  "hours": {
+    "SUNDAY": "8:00 - 18:00",
+    "MONDAY": "7:30 - 18:00",
+    "TUESDAY": "7:30 - 18:00",
+    "WEDNESDAY": "7:30 - 18:00",
+    "THURSDAY": "7:30 - 18:00",
+    "FRIDAY": "7:30 - 19:00",
+    "SATURDAY": "7:30 - 19:00"
+  },
+  "features": [
+    "☕ Great Coffee",
+    "🥐 Snacks & Treats",
+    "📖 Books to Read",
+    "🕹️ Board Games"
+  ]
+}

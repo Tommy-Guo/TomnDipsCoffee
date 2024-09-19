@@ -1,0 +1,28 @@
+{
+    "identifier": "foundcoffee",
+    "name": "Found Coffee",
+    "address": "2088 Dundas St W, Toronto, ON M6R 1W9",
+    "lat": 43.65241778348262,
+    "lng": -79.44829437015038,
+    "coffee_rating": "9.5",
+    "vibe_rating": "10",
+    "general-desc": "",
+    "hours": [{
+        "sunday": "9:00 - 17:00",
+        "monday": "8:00 - 16:00",
+        "tuesday": "8:00 - 16:00",
+        "wednesday": "8:00 - 16:00",
+        "thursday": "8:00 - 16:00",
+        "friday": "8:00 - 16:00",
+        "saturday": "9:00 - 17:00"
+    }],
+    "features": [
+        "💻 Great place to work",
+        "🥪 Snacks & Sandwhiches",
+        "🪑 Lots of seats"
+    ]
+}
+
+
+
+

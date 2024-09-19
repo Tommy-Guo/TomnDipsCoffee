@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+.source-sans-3 {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+.scrollableSection {
+  width: 22%;
+  overflow-y: scroll;
+  padding: 1em;
+  box-sizing: border-box;
+
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+.cafe {
+  display: flex;
+  align-items: center;
+  padding: .75em;
+  padding-bottom: 1.5em;
+  margin-bottom: 0.75em;
+  position: relative;
+  color: #d9d9d9;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .scrollableSection {
+    width: 100%;
+    overflow-y: scroll;
+    padding: 1em;
+    box-sizing: border-box;
+    height: 43%;
+    z-index: 10;
+    clear: both;
+    position: relative;
+    margin-top: 90%;
+    background-color: #1e1f23;
+  }
+}
+
+
+.cafe img {
+  width: 140px;
+  height: auto;
+  max-height: 140px;
+  object-fit: cover;
+  border-radius: 0.6em;
+  margin-right: 1em;
+  overflow: hidden;
+}
+
+.cafe .image-container {
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cafe .text-content {
+  flex: 1;
+}
+
+.cafe h3 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.cafe p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.cafe::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #393b3e;
+}
+
+.cafe:last-child::after {
+  display: none;
+}

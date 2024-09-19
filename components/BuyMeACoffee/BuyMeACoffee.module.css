@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
+.main {
+  text-decoration: none;
+  display: block;
+  align-items: center;
+  color: white;
+  border-radius: 2em;
+  border: 1px solid #d7bd6e;
+  width: 36%;
+  padding: 0.3em 0.8em;
+  margin: 1em auto;
+}
+
+.main * {
+  text-decoration: none;
+  color: #d7bd6e;
+  /* font-family: "PT Serif", serif; */
+  font-weight: 700;
+  font-style: normal;
+}
+
+.main:hover {
+  background-color: #1c1d20;
+  box-shadow: 2px 2px 6px black;
+}
+
+
+.BuyMeACoffee {
+  text-decoration: none;
+} 
+
+.coffeeImage {
+  box-shadow: none;
+  border: none;
+  vertical-align: middle;
+  color: #d7bd6e;
+  filter: invert(98%) sepia(39%) saturate(1874%) hue-rotate(322deg) brightness(88%) contrast(89%);
+}
+
+.coffeeButtonText {
+  margin-left: 15px;
+  font-size: 1.2rem;
+  vertical-align: middle;
+}
+
+
+@media (max-width: 768px) {
+  .main {
+    text-decoration: none;
+    display: block;
+    align-items: center;
+    color: white;
+    border-radius: 2em;
+    border: 1px solid #d7bd6e;
+    width: 56%;
+    padding: 0.3em 0.8em;
+    margin: 1em auto;
+  }
+}
