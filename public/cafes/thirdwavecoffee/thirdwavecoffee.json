@@ -1,0 +1,23 @@
+{
+  "identifier": "thirdwavecoffee",
+  "name": "THIRD WAVE COFFEE",
+  "address": "42 Church St, Toronto, ON M5E 0C1",
+  "lat": 43.6493964148038,
+  "lng": -79.37432290000004,
+  "coffee_rating": "7",
+  "vibe_rating": "8",
+  "general_desc": "THIRD WAVE COFFEE stays true to tradition, serving each espresso with a small cup of sparkling water—a nod to the authentic coffee experience. The cafe embraces the third wave coffee vibe with its open, modern design. They brew excellent coffee, though seating is a bit limited, making it more of a quick stop than a place to linger.",
+  "hours": {
+    "SUNDAY": "9:00 - 18:00",
+    "MONDAY": "8:00 - 18:00",
+    "TUESDAY": "8:00 - 18:00",
+    "WEDNESDAY": "8:00 - 18:00",
+    "THURSDAY": "8:00 - 18:00",
+    "FRIDAY": "8:00 - 18:00",
+    "SATURDAY": "9:00 - 18:00"
+  },
+  "features": [
+    "💧 Espresso served with sparkling water",
+    "🏢 Open, modern interior"
+  ]
+}

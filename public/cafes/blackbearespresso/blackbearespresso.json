@@ -1,0 +1,24 @@
+{
+  "identifier": "blackbearespresso",
+  "name": "Black Bear Espresso",
+  "address": "25 Carlton St., Toronto, ON M5B 1L4",
+  "lat": 43.6612622573008,
+  "lng": -79.38152846392293,
+  "coffee_rating": "7",
+  "vibe_rating": "8",
+  "general_desc": "Black Bear Espresso is a charming, tiny cafe tucked away near a university campus. Despite its small size, the cozy atmosphere makes it an inviting spot for coffee lovers. It’s often filled with students on their laptops or readers enjoying a quiet moment. The coffee here is consistently good, making it a favorite for those in the area.",
+  "hours": {
+    "SUNDAY": "8:00 - 17:00",
+    "MONDAY": "7:30 - 17:00",
+    "TUESDAY": "7:30 - 17:00",
+    "WEDNESDAY": "7:30 - 17:00",
+    "THURSDAY": "7:30 - 17:00",
+    "FRIDAY": "7:30 - 17:00",
+    "SATURDAY": "8:00 - 17:00"
+  },
+  "features": [
+    "📚 Perfect for laptop users and readers",
+    "🏫 Near a university campus",
+    "🐻 Cozy, tucked-away vibe"
+  ]
+}

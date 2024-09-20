@@ -1,0 +1,24 @@
+{
+  "identifier": "lightcafe",
+  "name": "Light Cafe",
+  "address": "23 Baldwin Street - Floor Unit, Toronto, ON M5T 1L1",
+  "lat": 43.65600182971438,
+  "lng": -79.39300559999998,
+  "coffee_rating": "5",
+  "vibe_rating": "8",
+  "general_desc": "This popular brunch spot is a local favorite, especially in the mornings when it’s always packed. While they’re better known for their incredible food and wide selection of teas, the coffee isn’t quite up to par with their other drinks.",
+  "hours": {
+    "SUNDAY": "9:00 - 20:00",
+    "MONDAY": "10:00 - 20:00",
+    "TUESDAY": "10:00 - 20:00",
+    "WEDNESDAY": "10:00 - 20:00",
+    "THURSDAY": "10:00 - 20:00",
+    "FRIDAY": "10:00 - 20:00",
+    "SATURDAY": "9:00 - 20:00"
+  },
+  "features": [
+    "🍵 Great variety of tea",
+    "🍽️ Delicious brunch menu",
+    "🌅 Bustling morning atmosphere"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "identifier": "fahrenheitcoffee",
+  "name": "Fahrenheit Coffee",
+  "address": "49 Spadina Ave., Toronto, ON M5V 2J1",
+  "lat": 43.64348342951212,
+  "lng": -79.39359029999999,
+  "coffee_rating": "10",
+  "vibe_rating": "6",
+  "general_desc": "Tucked away in the basement of another building, this place exudes a clean, rustic, yet modern vibe. It's more of an espresso bar, with very limited seating, but what it lacks in space, it more than makes up for with some of the best coffee we've had in the city. We absolutely loved it, and it's a hidden gem for true coffee enthusiasts.",
+  "hours": {
+    "SUNDAY": "9:00 - 15:00",
+    "MONDAY": "7:00 - 16:00",
+    "TUESDAY": "7:00 - 16:00",
+    "WEDNESDAY": "7:00 - 16:00",
+    "THURSDAY": "7:00 - 16:00",
+    "FRIDAY": "7:00 - 16:00",
+    "SATURDAY": "8:00 - 16:00"
+  },
+  "features": [
+    "🏞️ Clean, rustic & modern vibe",
+    "☕ Espresso bar"
+  ]
+}

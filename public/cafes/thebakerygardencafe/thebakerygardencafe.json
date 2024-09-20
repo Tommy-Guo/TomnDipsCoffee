@@ -1,0 +1,22 @@
+{
+  "identifier": "thebakerygardencafe",
+  "name": "The Bakery Garden Cafe",
+  "address": "504 St Clair Ave W, Toronto, ON M6C 1A2",
+  "lat": 43.683362720626405,
+  "lng": -79.41859300000117,
+  "coffee_rating": "3",
+  "vibe_rating": "6",
+  "general_desc": "This cafe is a spacious haven, often bustling with students diligently working on their laptops. The friendly baristas and their warm hospitality are a highlight, and the biscotti is a must-try. However, they use pre-tamped Lavazza espresso pods, which can leave coffee lovers wanting a bit more from their brew.",
+  "hours": {
+    "SUNDAY": "8:00 - 16:00",
+    "MONDAY": "7:00 - 18:00",
+    "TUESDAY": "7:00 - 18:00",
+    "WEDNESDAY": "7:00 - 18:00",
+    "THURSDAY": "7:00 - 19:00",
+    "FRIDAY": "7:00 - 19:00",
+    "SATURDAY": "8:00 - 18:00"
+  },
+  "features": ["💻 Spacious and student-friendly",
+  "😊 Friendly baristas",
+  "🍪 Delicious biscotti"]
+}
