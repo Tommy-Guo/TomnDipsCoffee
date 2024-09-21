@@ -109,7 +109,7 @@ const Map = ({ scrollableSectionRef }) => {
 
   return (
     <div id="map" className={styles.map}>
-      <button onClick={handleLocation} className={styles.floating_button}><FontAwesomeIcon icon={faLocationDot} /></button>
+      <button onClick={handleLocation} className={styles.floating_button} alt="Add your location!"><FontAwesomeIcon icon={faLocationDot} /></button>
     </div>
   );
 };
