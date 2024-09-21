@@ -1,7 +1,28 @@
 .map {
     width: 100%;
     flex: 1;
+    z-index: 1002;
 }
+
+.floating_button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #1e1f23;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+    font-size: 16px;
+}
+
+.floating_button:hover {
+    background-color: #191a1d;
+}
+
+
 
 @media (max-width: 768px) {
     .map {
@@ -12,8 +33,24 @@
         max-height: 80%;
         min-height: 57%;
 
+
         min-width: 100%;
 
         z-index: 1;
     }
-  }
+
+    .floating_button {
+        position: fixed;
+        bottom: 40%;
+        right: 20px;
+        background-color: #1e1f23;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        z-index: 1000;
+        font-size: 16px;
+    }
+    
+}

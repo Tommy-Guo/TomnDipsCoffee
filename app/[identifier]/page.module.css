@@ -127,4 +127,9 @@
         height: 100%;
         min-width: 100%;
     }
+    
+    .chart_container {
+        display: block;
+    }
+    
 }

@@ -1,13 +1,17 @@
 'use client';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import styles from './Map.module.css';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 
 const defaultIconUrl = '../images/map-pointer.png';
 
 const Map = ({ scrollableSectionRef }) => {
   const [cafes, setCafes] = useState([]);
+  const mapRef = useRef(null); // Ref to store the map instance
 
   useEffect(() => {
     const fetchIdentifiers = async () => {
@@ -43,6 +47,7 @@ const Map = ({ scrollableSectionRef }) => {
         tileSize: 512,
         zoomOffset: -1
       }).addTo(map);
+      mapRef.current = map;
 
       cafes.forEach(cafe => {
         const iconUrl = `/api/${cafe.identifier}/icon`;
@@ -77,7 +82,36 @@ const Map = ({ scrollableSectionRef }) => {
     }
   }, [cafes, scrollableSectionRef]);
 
-  return <div id="map" className={styles.map}></div>;
+  const handleLocation = () => {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          const { latitude, longitude } = position.coords;
+          if (mapRef.current) {
+            const userLocationMarker = L.marker([latitude, longitude], {
+              icon: L.icon({
+                iconUrl: '/images/location-dot.png',
+                iconSize: [25, 41],
+                iconAnchor: [12, 41],
+              }),
+            }).addTo(mapRef.current);
+            mapRef.current.setView([latitude, longitude], 14);
+          }
+        },
+        (error) => {
+          console.error('Error getting location', error);
+        }
+      );
+    } else {
+      alert('Geolocation is not supported by this browser.');
+    }
+  };
+
+  return (
+    <div id="map" className={styles.map}>
+      <button onClick={handleLocation} className={styles.floating_button}><FontAwesomeIcon icon={faLocationDot} /></button>
+    </div>
+  );
 };
 
 export default Map;
