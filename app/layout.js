@@ -1,5 +1,5 @@
 import { GoogleAnalytics } from '@next/third-parties/google'
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 
 import "./globals.css";
 import Navbar from '../components/Navbar/Navbar';
@@ -21,6 +21,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
+        <Analytics/>
         <Navbar className="navbar" styles="z-index:10;" />
         {children}
       </body>
