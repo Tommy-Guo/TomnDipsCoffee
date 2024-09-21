@@ -1,0 +1,24 @@
+{
+  "identifier": "coffeetreeroastery",
+  "name": "Coffee Tree Roastery",
+  "address": "2412 Bloor St W, Toronto, ON M6S 1P9",
+  "lat": 43.64974349999048,
+  "lng": -79.48346249996226,
+  "coffee_rating": "6",
+  "vibe_rating": "7",
+  "general_desc": "Coffee Tree is a warm, spirit-filled cafe and roastery with a deep sense of community. They not only serve good coffee but also donate to many local causes around the city. You can purchase their own roasted beans and explore a variety of coffee-related merch, making it a go-to spot for coffee lovers and supporters of local initiatives.",
+  "hours": {
+    "SUNDAY": "9:00 - 16:00",
+    "MONDAY": "7:00 - 18:00",
+    "TUESDAY": "7:00 - 18:00",
+    "WEDNESDAY": "7:00 - 18:00",
+    "THURSDAY": "7:00 - 18:00",
+    "FRIDAY": "7:00 - 18:00",
+    "SATURDAY": "8:00 - 18:00"
+  },
+  "features": [
+    "🎗️ Supports local causes",
+    "🛍️ Coffee merch",
+    "🌳 Spirit-filled, community-driven cafe"
+  ]
+}

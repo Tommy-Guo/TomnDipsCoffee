@@ -7,6 +7,7 @@ import { useEffect, useState } from 'react';
 import Head from 'next/head';
 
 import HoursChart from '../../components/HoursChart/HoursChart';
+import ImageSlider from '../../components/ImageSlider/ImageSlider';
 import FeaturesChart from '@/components/FeaturesChart/FeaturesChart';
 
 import { Passion_One, Varela_Round, Oswald } from 'next/font/google';
@@ -89,7 +90,8 @@ export default function CafePage({ params }) {
       <div className={styles.main_content}>
         <div className={styles.photo_rating}>
           <div className={styles.photo_container}>
-            <img className={styles.photo} src={`/cafes/${cafe.identifier}/${cafe.identifier}.jpg`} alt={cafe.name} />
+            {/* <img className={styles.photo} src={`/cafes/${cafe.identifier}/${cafe.identifier}.jpg`} alt={cafe.name} /> */}
+            <ImageSlider cafe={cafe}/>
           </div>
           <table className={styles.rating_container}>
             <tbody>

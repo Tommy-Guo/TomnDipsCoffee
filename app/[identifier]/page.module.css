@@ -24,6 +24,7 @@
 
 .photo_rating {
     min-width: 40%;
+    max-width: 40%;
     height: 100%;
 }
 
@@ -122,11 +123,8 @@
     }
 
     .photo_rating {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .chart_container {
-        flex-direction: column;
+        width: 90%;
+        height: 100%;
+        min-width: 100%;
     }
 }
