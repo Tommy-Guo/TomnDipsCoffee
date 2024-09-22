@@ -1,8 +1,9 @@
-import { GoogleAnalytics } from '@next/third-parties/google'
-import { Analytics } from "@vercel/analytics/react"
-
 import "./globals.css";
 import Navbar from '../components/Navbar/Navbar';
+
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
   title: "Tom & Dips Coffee",
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <Analytics/>
+        <SpeedInsights/>
         <Navbar className="navbar" styles="z-index:10;" />
         {children}
       </body>
