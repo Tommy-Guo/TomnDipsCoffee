@@ -1,4 +1,7 @@
 'use client';
+
+// Map uses 'use client' but the API key is URL locked, so even though the user has access to the key, no harm can be done.
+
 import React, { useEffect, useState, useRef } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';

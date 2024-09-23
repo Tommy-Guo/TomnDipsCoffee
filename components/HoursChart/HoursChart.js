@@ -7,6 +7,8 @@ const oswald = Oswald({ subsets: ["latin"] });
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClock } from '@fortawesome/free-solid-svg-icons'
 
+// This file & Features chart will be combined together, there's no need for two seperate components that do the same thing.
+
 function HoursChart({ hours }) {
     const days = hours[0];
     const today = new Date().toLocaleDateString('en-US', { weekday: 'long' }).toLowerCase();

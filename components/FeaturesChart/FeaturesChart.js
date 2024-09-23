@@ -1,5 +1,7 @@
 "use client";
 
+// This file & Hours chart will be combined together, there's no need for two seperate components that do the same thing.
+
 import styles from './FeaturesChart.module.css';
 import { Oswald } from "next/font/google";
 const oswald = Oswald({ subsets: ["latin"] });
