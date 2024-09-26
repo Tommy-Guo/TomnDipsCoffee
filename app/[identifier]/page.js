@@ -3,6 +3,7 @@
 import { useRouter } from 'next/navigation';
 import styles from './page.module.css';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import Head from 'next/head';
 
@@ -69,7 +70,7 @@ export default function CafePage({ params }) {
 
   if (!cafe) {
     return (
-      <div className={styles.centerLoading}>
+      <div className={`${styles.centerLoading} ${varela.className}`}>
         <Image
           src={`/images/loading.gif`}
           alt="Loading GIF"
@@ -78,6 +79,9 @@ export default function CafePage({ params }) {
           height={400}
           priority
         />
+        <h1>
+          TND COFFEE
+        </h1>
       </div>
     );
   }
@@ -91,7 +95,7 @@ export default function CafePage({ params }) {
         <div className={styles.photo_rating}>
           <div className={styles.photo_container}>
             {/* <img className={styles.photo} src={`/cafes/${cafe.identifier}/${cafe.identifier}.jpg`} alt={cafe.name} /> */}
-            <ImageSlider cafe={cafe}/>
+            <ImageSlider cafe={cafe} />
           </div>
           <table className={styles.rating_container}>
             <tbody>
@@ -111,7 +115,9 @@ export default function CafePage({ params }) {
 
         <div className={styles.main_data}>
           <p className={`${styles.title} ${passionone.className}`}>{cafe.name}</p>
-          <p className={`${styles.medium_text} ${styles.divider}`}><FontAwesomeIcon icon={faLocationDot} /> {cafe.address}</p>
+          <p className={`${styles.medium_text} ${styles.divider}`}><FontAwesomeIcon icon={faLocationDot} />
+            <Link className={styles.link} href={`https://www.google.com/maps/search/?api=1&query=${cafe.name},+${cafe.address}`}>  {cafe.address}</Link>
+          </p>
           <div className={styles.chart_container}>
             <HoursChart hours={cafe.hours} className={styles.chart} />
             <FeaturesChart features={cafe.features} />

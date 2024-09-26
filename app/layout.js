@@ -7,7 +7,7 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
   title: "Tom & Dips Coffee",
-  description: "Tom & Dips Coffee",
+  description: "Tom & Dips Coffee, TND Coffee Homepage, T&D Coffee Homepage",
 };
 
 export default function RootLayout({ children }) {

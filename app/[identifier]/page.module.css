@@ -90,6 +90,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .loading {
@@ -100,6 +101,11 @@
 
 .larger {
     font-size: 1.4em;
+}
+
+.link {
+    color: rgb(142, 216, 197);
+    text-decoration: none;
 }
 
 
@@ -127,9 +133,9 @@
         height: 100%;
         min-width: 100%;
     }
-    
+
     .chart_container {
         display: block;
     }
-    
+
 }
