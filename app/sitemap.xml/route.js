@@ -9,7 +9,7 @@ export async function GET() {
 
     const data = await response.json();
     const identifiers = data.identifiers;
-    const baseUrl = 'https://www.tndcoffee.com';
+    const baseUrl = 'https://tndcoffee.com';
 
     const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
       <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
