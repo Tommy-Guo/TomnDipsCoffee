@@ -19,7 +19,7 @@ function Navbar() {
     return (
         <div className={styles.nav_container}>
             <nav className={styles.nav}>
-                <Link href={`/`} passHref>
+                <Link href={`/`} className={styles.nodeco} passHref>
                     <div className={`${styles.logo} ${styles.Montserrat}`}>Tom n&apos; Dip&apos;s Coffee</div>
                     <Image
                         className={styles.logoImage}

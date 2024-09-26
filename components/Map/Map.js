@@ -43,7 +43,7 @@ const Map = ({ scrollableSectionRef }) => {
         zoom: 12,
         scrollWheelZoom: true
       });
-      L.tileLayer(`https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=${process.env.NEXT_PUBLIC_MAP_TOKEN}`, {
+      L.tileLayer(`https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?optimize=true&access_token=${process.env.NEXT_PUBLIC_MAP_TOKEN}`, {
         maxZoom: 18,
         // id: 'mapbox/dark-v11',
         id: 'mapbox/outdoors-v11',
@@ -58,8 +58,8 @@ const Map = ({ scrollableSectionRef }) => {
         const icon = L.divIcon({
           className: 'custom-icon',
           html: `
-            <div style="position: relative;">
-              <img src="${defaultIconUrl}" alt="Map pointer" style="position: absolute; top: 0; left: 0; width: 30px; height: 42px;">
+            <div style="position: relative; background-color: white !important; color: black !important;">
+              <img src="${defaultIconUrl}" alt="Map pointer" style="position: absolute; top: 0; left: 0; width: 30px; height: 47.427385892116185px;">
               <img src="${iconUrl}" alt="${cafe.name} icon " style="position: absolute; top: 0; left: 0; width: 32px; height: 32px; background-color: white !important; border-radius: 6px; border: 2px solid white">
             </div>
           `,
