@@ -7,13 +7,13 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import Head from 'next/head';
 
-import HoursChart from '../../components/HoursChart/HoursChart';
+import Chart from '../../components/Chart/Chart';
+
 import ImageSlider from '../../components/ImageSlider/ImageSlider';
-import FeaturesChart from '@/components/FeaturesChart/FeaturesChart';
 
 import { Passion_One, Varela_Round, Oswald } from 'next/font/google';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { faLocationDot, faHeart, faClock } from '@fortawesome/free-solid-svg-icons';
 
 const oswald = Oswald({ subsets: ['latin'], weight: '400' });
 const passionone = Passion_One({ subsets: ['latin'], weight: '400' });
@@ -85,6 +85,10 @@ export default function CafePage({ params }) {
       </div>
     );
   }
+  const hoursArray = Object.entries(cafe.hours).map(([day, hours]) => ({
+    day,
+    hours
+  }));;
 
   return (
     <div className={`${styles.main_body} ${varela.className}`}>
@@ -94,7 +98,6 @@ export default function CafePage({ params }) {
       <div className={styles.main_content}>
         <div className={styles.photo_rating}>
           <div className={styles.photo_container}>
-            {/* <img className={styles.photo} src={`/cafes/${cafe.identifier}/${cafe.identifier}.jpg`} alt={cafe.name} /> */}
             <ImageSlider cafe={cafe} />
           </div>
           <table className={styles.rating_container}>
@@ -119,10 +122,9 @@ export default function CafePage({ params }) {
             <Link className={styles.link} href={`https://www.google.com/maps/search/?api=1&query=${cafe.name},+${cafe.address}`}>  {cafe.address}</Link>
           </p>
           <div className={styles.chart_container}>
-            <HoursChart hours={cafe.hours} className={styles.chart} />
-            <FeaturesChart features={cafe.features} />
+            <Chart data={hoursArray} title="HOURS" icon={faClock} type="hours" />
+            <Chart data={cafe.features} title="THINGS WE LOVED" icon={faHeart} type="features" />
           </div>
-
           <div>
             <p className={styles.divider} />
             <span className={styles.larger}>Quick notes:</span><br /><br />

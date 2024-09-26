@@ -108,6 +108,15 @@
     text-decoration: none;
 }
 
+.left {
+    text-align: left;
+    flex: 1;
+}
+
+.right {
+    text-align: right;
+    flex: 1;
+}
 
 @media (max-width: 768px) {
     .main_body {
@@ -136,6 +145,12 @@
 
     .chart_container {
         display: block;
+    }
+
+
+    .chart_container > :nth-last-of-type(1) {
+        border-top: 1px solid white;
+        padding-bottom: 0;
     }
 
 }
