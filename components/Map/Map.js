@@ -43,7 +43,7 @@ const Map = ({ scrollableSectionRef }) => {
         zoom: 12,
         scrollWheelZoom: true
       });
-      L.tileLayer(`https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}.webp?optimize=true&access_token=${process.env.NEXT_PUBLIC_MAP_TOKEN}`, {
+      L.tileLayer(`https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}@2x.webp?optimize=true&access_token=${process.env.NEXT_PUBLIC_MAP_TOKEN}`, {
         maxZoom: 18,
         // id: 'mapbox/dark-v11',
         id: 'mapbox/outdoors-v11',
