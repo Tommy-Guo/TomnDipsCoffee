@@ -9,7 +9,7 @@ export async function GET(req, { params }) {
   try {
     const files = await fs.promises.readdir(imagesDir);
     const imageFiles = files.filter(file => 
-      /\.(jpg|jpeg|png|gif)$/.test(file) && !file.includes('icon')
+      /\.(webp|jpeg|jpg|png)$/.test(file) && !file.includes('icon')
     );
     return new Response(JSON.stringify(imageFiles), {
       status: 200,

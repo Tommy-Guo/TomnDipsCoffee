@@ -22,7 +22,7 @@ export default function aboutus() {
                 <tr >
                     {/* <td className={styles.coffee_rate}>
                         <Image
-                            src={`/images/tommy.png`}
+                            src={`/images/tommy.webp`}
                             alt={"test"}
                             className={styles.selfie}
                             width={140}
@@ -30,7 +30,7 @@ export default function aboutus() {
                             layout="fixed"
                         />
                         <Image
-                            src={`/images/deep.png`}
+                            src={`/images/deep.webp`}
                             alt={"test"}
                             className={styles.selfie}
                             width={140}

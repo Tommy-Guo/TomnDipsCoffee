@@ -22,8 +22,6 @@
     background-color: #191a1d;
 }
 
-
-
 @media (max-width: 768px) {
     .map {
         display: block;

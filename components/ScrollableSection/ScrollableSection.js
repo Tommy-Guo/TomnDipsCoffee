@@ -38,7 +38,7 @@ const ScrollableSection = () => {
         >
           <div className={styles.cafeImageContainer}>
             <Image
-              src={`/cafes/${cafe.identifier}/${cafe.identifier}.jpg`}
+              src={`/cafes/${cafe.identifier}/${cafe.identifier}.webp`}
               alt={cafe.name}
               className={styles.cafeImage}
               width={140}

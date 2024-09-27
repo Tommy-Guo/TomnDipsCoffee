@@ -10,7 +10,7 @@ import styles from './Map.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 
-const defaultIconUrl = '../images/map-pointer.png';
+const defaultIconUrl = '../images/map-pointer.webp';
 
 const Map = ({ scrollableSectionRef }) => {
   const [cafes, setCafes] = useState([]);
@@ -93,7 +93,7 @@ const Map = ({ scrollableSectionRef }) => {
           if (mapRef.current) {
             const userLocationMarker = L.marker([latitude, longitude], {
               icon: L.icon({
-                iconUrl: '/images/location-dot.png',
+                iconUrl: '/images/location-dot.webp',
                 iconSize: [25, 41],
                 iconAnchor: [12, 41],
               }),

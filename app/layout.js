@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
       <head>
         <link
           rel="apple-touch-icon"
-          href="/images/ios_icon.png"
+          href="/images/ios_icon.webp"
           type="image/<generated>"
           sizes="<generated>"
         />

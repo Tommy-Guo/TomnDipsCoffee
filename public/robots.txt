@@ -1,4 +1,3 @@
 User-agent: *
 Disallow: /api/
-Disallow: /old/
 Sitemap: https://www.tndcoffee.com/sitemap.xml

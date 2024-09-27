@@ -23,7 +23,7 @@ function Navbar() {
                     <div className={`${styles.logo} ${styles.Montserrat}`}>Tom n&apos; Dip&apos;s Coffee</div>
                     <Image
                         className={styles.logoImage}
-                        src="/images/logo_white.png"
+                        src="/images/logo_white.webp"
                         alt="Logo image"
                         width={44}
                         height={44}
