@@ -14,7 +14,7 @@ const defaultIconUrl = '../images/map-pointer.webp';
 
 const Map = ({ scrollableSectionRef }) => {
   const [cafes, setCafes] = useState([]);
-  const mapRef = useRef(null); // Ref to store the map instance
+  const mapRef = useRef(null);
 
   useEffect(() => {
     const fetchIdentifiers = async () => {
@@ -43,9 +43,8 @@ const Map = ({ scrollableSectionRef }) => {
         zoom: 12,
         scrollWheelZoom: true
       });
-      L.tileLayer(`https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}.webp?access_token=${process.env.NEXT_PUBLIC_MAP_TOKEN}`, {
+      L.tileLayer(`https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=${process.env.NEXT_PUBLIC_MAP_TOKEN}`, {
         maxZoom: 18,
-        // id: 'mapbox/dark-v11',
         id: 'mapbox/outdoors-v11',
         tileSize: 512,
         zoomOffset: -1

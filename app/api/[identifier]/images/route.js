@@ -1,9 +1,8 @@
-// app/api/[identifier]/images/route.js
 import fs from 'fs';
 import path from 'path';
 
 export async function GET(req, { params }) {
-  const { identifier } = params; // Get the identifier from the URL parameters
+  const { identifier } = params;
   const imagesDir = path.join(process.cwd(), 'public/cafes', identifier);
 
   try {

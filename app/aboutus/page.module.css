@@ -32,7 +32,6 @@
 }
 
 .whyDiv {
-    /* max-width: 60%; */
     flex: 50%;
     border-left: 2px solid #d7bd6e;
     padding-left: 1em;

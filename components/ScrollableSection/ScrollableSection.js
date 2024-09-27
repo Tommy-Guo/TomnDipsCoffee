@@ -44,7 +44,7 @@ const ScrollableSection = () => {
               width={140}
               height={140}
               fixed="true"
-              loading="eager"  // Change from lazy to eager
+              loading="eager"
               priority={true}
             />
           </div>

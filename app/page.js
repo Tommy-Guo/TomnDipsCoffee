@@ -1,4 +1,3 @@
-// import styles from "./page.module.css";
 import ScrollableSection from '../components/ScrollableSection/ScrollableSection';
 
 import dynamic from 'next/dynamic';
